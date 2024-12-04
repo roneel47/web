@@ -1,0 +1,117 @@
+/* General styling */
+body {
+ font-family: Arial, sans-serif;
+ line-height: 1.6;
+ margin: 0;
+ background-color: #f0f0f0;
+}
+h1, h2, h3 {
+ color: darkblue;
+ margin-bottom: 10px;
+}
+p {
+ color: #333;
+ font-size: 18px;
+}
+/* Header styling */
+header {
+ background-color: navy;
+ color: white;
+ padding: 10px 0;
+ text-align: center;
+}
+header nav ul {
+ list-style: none;
+ padding: 0;
+}
+header nav ul li {
+ display: inline;
+ margin: 0 10px;
+}
+header nav ul li a {
+ color: white;
+ text-decoration: none;
+ font-weight: bold;
+}
+header nav ul li a:hover {
+ text-decoration: underline;
+}
+/* Main content and aside */
+main {
+ display: flex;
+ justify-content: space-between;
+ margin: 20px;
+}
+section {
+ flex: 70%;
+ background-color: white;
+ padding: 20px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+aside {
+ flex: 25%;
+ background-color: #f9f9f9;
+ padding: 20px;
+ margin-left: 20px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+aside h3 {
+ color: darkgreen;
+ font-size: 20px;
+}
+aside ul {
+ list-style-type: square;
+ margin: 0;
+ padding: 0;
+}
+aside ul li {
+ margin-bottom: 10px;
+}
+/* Table styling */
+table {
+ width: 100%;
+  border-collapse: collapse;
+ margin-top: 20px;
+ background-color: white;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+table th, table td {
+ padding: 10px;
+ border: 1px solid #ddd;
+ text-align: left;
+}
+table th {
+ background-color: #4CAF50;
+ color: white;
+}
+table tr:nth-child(even) {
+ background-color: #f2f2f2;
+}
+/* Footer styling */
+footer {
+ background-color: #333;
+ color: white;
+ text-align: center;
+ padding: 10px 0;
+ margin-top: 20px;
+}
+footer a {
+ color: lightblue;
+ text-decoration: none;
+}
+footer a:hover {
+ text-decoration: underline;
+}
+/* Image and figure styling */
+figure {
+ margin: 20px 0;
+ text-align: center;
+}
+figure img {
+ border: 3px solid #ddd;
+ border-radius: 10px;
+}
+figcaption {
+ font-size: 16px;
+ color: #555;
+}
