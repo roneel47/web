@@ -1,114 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Time Table</title>
-<style>
-table {
-width: 60%;
-border-collapse:collapse;
-text-align: center;
-}
-th, td {
-border: 2px solid black;
-padding: 10px;
-}
-th {
-background-color: rgb(135, 2, 71);
-color: white;
-}
-thead th{background-color: rgb(57, 132, 61);}
-tfoot td {
-background-color: rgb(150, 234, 136);
-font-weight: bold;
-}
-.lab {
-background-color: lightcoral; /* Highlight lab hours */
-}
-.elective {
-background-color: rgba(119, 53, 233, 0.4); /* Highlight elective hours */
-}
-tr:nth-child(even) {
-  background-color: rgb(234, 186, 145);
-}
-tr:nth-child(odd) {
-background-color: rgb(165, 212, 241);
-}
-</style>
-</head>
-<body>
-<center>
-<h1>Class Time Table</h1>
-<table>
-<thead>
-<tr>
-<th colspan="9">Time Table</th>
-</tr>
-</thead>
-<tr>
-<th>Day</th>
-<th>8:45 - 9:45</th>
-<th>9:45 - 10:45</th>
-<th>10:45 - 11:00</th>
-<th>11:00 - 12:00</th>
-<th>12:00 - 1:00</th>
-<th>1:00 - 1:45</th>
-<th>1:45 - 2:45</th>
-<th>2:45 - 3:45</th>
-</tr>
-<tbody>
-<tr>
-<td>Monday</td>
-<td>TOC</td>
-<td class="elective">Elective: AI</td>
-<td rowspan="5">BREAK</td>
-<td>CN</td>
-<td>EVS</td>
-<td rowspan="5">BREAK</td>
-<td>SE</td>
-<td>RM</td>
-</tr>
-<tr>
-  <td>Tuesday</td>
-<td>SE</td>
-<td>TOC</td>
-<td>RM</td>
-<td>CN</td>
-<td class="lab" colspan="2">CN/WEB LAB (2 Hours)</td>
-</tr>
-<tr>
-<td>Wednesday</td>
-<td>TOC</td>
-<td>SE</td>
-<td>CN</td>
-<td class="elective">Elective: AI</td>
-<td colspan="2" class="lab">CN/WEB LAB (2 Hours)</td>
-</tr>
-<tr>
-<td>Thursday</td>
-<td>CN</td>
-<td>SE</td>
-<td>TOC</td>
-<td>EVS</td>
-<td class="elective">Elective: AI</td>
-<td>SE</td>
-</tr>
-<tr>
-<td>Friday</td>
-<td>RM</td>
-<td>TOC</td>
-<td>CN</td>
-<td>EVS</td>
-<td colspan="2" class="lab">CN/WEB LAB (2 Hours)</td>
-</tr>
-</tbody>
-<tfoot>
-<tr>
-<td colspan="9">End of Timetable</td>
-</tr>
-</tfoot>
-</table>
-</center>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Table</title>
+    <style>
+      table {
+        width: 60%;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      th,
+      td {
+        border: 2px solid black;
+        padding: 10px;
+      }
+      th {
+        background-color: rgb(135, 2, 71);
+        color: white;
+      }
+      thead th {
+        background-color: rgb(57, 132, 61);
+      }
+      tfoot td {
+        background-color: rgb(150, 234, 136);
+        font-weight: bold;
+      }
+      .lab {
+        background-color: lightcoral; /* Highlight lab hours */
+      }
+      .elective {
+        background-color: rgba(
+          119,
+          53,
+          233,
+          0.4
+        ); /* Highlight elective hours */
+      }
+      tr:nth-child(even) {
+        background-color: rgb(234, 186, 145);
+      }
+      tr:nth-child(odd) {
+        background-color: rgb(165, 212, 241);
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>Class Time Table</h1>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="9">Time Table</th>
+          </tr>
+        </thead>
+        <tr>
+          <th>Day</th>
+          <th>8:45 - 9:45</th>
+          <th>9:45 - 10:45</th>
+          <th>10:45 - 11:00</th>
+          <th>11:00 - 12:00</th>
+          <th>12:00 - 1:00</th>
+          <th>1:00 - 1:45</th>
+          <th>1:45 - 2:45</th>
+          <th>2:45 - 3:45</th>
+        </tr>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>TOC</td>
+            <td class="elective">Elective: AI</td>
+            <td rowspan="5">BREAK</td>
+            <td>CN</td>
+            <td>EVS</td>
+            <td rowspan="5">BREAK</td>
+            <td>SE</td>
+            <td>RM</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>SE</td>
+            <td>TOC</td>
+            <td>RM</td>
+            <td>CN</td>
+            <td class="lab" colspan="2">CN/WEB LAB (2 Hours)</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>TOC</td>
+            <td>SE</td>
+            <td>CN</td>
+            <td class="elective">Elective: AI</td>
+            <td colspan="2" class="lab">CN/WEB LAB (2 Hours)</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>CN</td>
+            <td>SE</td>
+            <td>TOC</td>
+            <td>EVS</td>
+            <td class="elective">Elective: AI</td>
+            <td>SE</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>RM</td>
+            <td>TOC</td>
+            <td>CN</td>
+            <td>EVS</td>
+            <td colspan="2" class="lab">CN/WEB LAB (2 Hours)</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="9">End of Timetable</td>
+          </tr>
+        </tfoot>
+      </table>
+    </center>
+  </body>
 </html>

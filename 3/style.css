@@ -1,60 +1,58 @@
 /* Element Selector: Applies to all h2 elements */
 h2 {
- font-family: 'Courier New', Courier, monospace;
- color: darkblue;
- text-align: center;
- border-bottom: 3px solid #333;
+  font-family: "Courier New", Courier, monospace;
+  color: darkblue;
+  text-align: center;
+  border-bottom: 3px solid #333;
 }
 /* Element Selector: Applies to all h3 elements */
 h3 {
- font-size: 1.5em;
- color: darkgreen;
- margin-bottom: 10px;
+  font-size: 1.5em;
+  color: darkgreen;
+  margin-bottom: 10px;
 }
 /* Element Selector: Applies to all hr elements */
 hr {
- border: 1px solid #ccc;
+  border: 1px solid #ccc;
   margin: 20px 0;
 }
 /* Class Selector: Applies only to paragraphs with the 'intro' class */
 p.intro {
- font-size: 1.2em;
- line-height: 1.6;
- background-color: #f0f0f0;
- padding: 15px;
+  font-size: 1.2em;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+  padding: 15px;
 }
 /* ID Selector: Targets only the div with ID 'content' */
 #content {
- background-color: #e8e8e8;
- padding: 20px;
- border-radius: 10px;
- box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #e8e8e8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 /* Class Selector: Highlights text inside span elements */
 span.highlight {
- color: red;
- font-weight: bold;
+  color: red;
+  font-weight: bold;
 }
 /* Element Selector: Applies styles to time elements */
 time {
- color: #555;
- font-style: italic;
- font-size: 0.9em;
+  color: #555;
+  font-style: italic;
+  font-size: 0.9em;
 }
 /* Attribute Selector: Applies styles to img elements with an alt attribute */
 img[alt] {
- border: 3px solid #ddd;
- border-radius: 8px;
- max-width: 100%;
+  border: 3px solid #ddd;
+  border-radius: 8px;
+  max-width: 100%;
 }
-Web Technology Lab (BCSL504)
-Dept. of CSE, EPCET, Bengaluru 33 2024-25
 /* Pseudo-class Selector: Styles the a tag when hovered */
 a:hover {
- color: orange;
- text-decoration: underline;
+  color: orange;
+  text-decoration: underline;
 }
 /* Universal Selector: Applies a border-box layout model to all elements */
 * {
- box-sizing: border-box;
+  box-sizing: border-box;
 }
