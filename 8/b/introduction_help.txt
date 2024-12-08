@@ -1,1 +1,42 @@
-Welcome to the folder 8
+Steps:
+Step 1: Start MySQL Server
+1. Open MySQL:
+o If you’re using MySQL Workbench, launch it and connect to your MySQL
+server.
+o If you’re using the command line, open a terminal and type: mysql -u root -p
+o Enter your MySQL root password to access the MySQL prompt.
+
+Step 2: Create the Database and Table
+1. Create Database school:
+o At the MySQL prompt, run: create database school;
+o Create the students table with columns for id, name, and score:
+CREATE TABLE students (
+ id CHAR(10) PRIMARY KEY,
+ name VARCHAR(50) NOT NULL,
+ score INT NOT NULL
+);
+
+Step 3: Insert Sample Data
+Add some sample student records to test your selection sort program.
+INSERT INTO students (name, score) VALUES
+(‘1EP22CS010’,'Alice', 85),
+(‘1EP22CS012’, 'Bob', 92),
+(‘1EP22CS016’, 'Charlie', 78),
+(‘1EP22CS020’,'David', 90),
+(‘1EP22CS022’,'Eve', 88);
+
+Step 5: Run Your PHP Program
+Now that the database and table are set up, follow these steps to run the PHP program:
+o Save your PHP files (e.g., db_config.php for the database connection, and
+sort_students.php for the main sorting program).
+o Save styles.css if you want to apply additional styling.
+2. Start PHP’s Built-In Server:
+o Open the terminal in Visual Studio Code and navigate to the folder containing
+your PHP files.
+o Start the PHP server by running: php -S localhost:8000
+o This starts a local server at http://localhost:8000.
+3. Access the Program in Your Browser:
+• Open a web browser and go to http://localhost:8000/sort_students.php.
+• You should see a table displaying the sorted student records by score in
+descending order.
+1. Save Your Files:
