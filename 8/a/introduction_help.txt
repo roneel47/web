@@ -5,7 +5,9 @@ Step 1: Set Up Your Project Files
 o index.php: This will contain your PHP and HTML code.
 o visitor_count.txt: An empty file where the visitor count will be stored.
 o phpStyle.css (optional): Any CSS you want to style your page.
+
 Step 2: Save Your PHP and HTML Code in index.php
+
 Step 3: Run the PHP File with a Local Server
 1. Open the Integrated Terminal in Visual Studio Code by selecting View > Terminal.
 2. Start PHP’s Built-In Server by navigating to the folder where index.php is saved and
