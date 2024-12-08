@@ -24,7 +24,7 @@ Each sub-folder contains:
 1. **Clone or Download:**  
    Clone the repository to your local machine using:
    ```bash
-   git clone <repository_link>
+   git clone https://github.com/roneel47/web
 Or download the ZIP file and extract it.
 Navigate to Sub-Folders:
 Open the folder of the program you want to study.
