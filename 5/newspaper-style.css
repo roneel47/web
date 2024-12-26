@@ -1,4 +1,4 @@
-/* General styling */
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -15,7 +15,7 @@ p {
   color: #333;
   font-size: 18px;
 }
-/* Header styling */
+
 header {
   background-color: navy;
   color: white;
@@ -38,7 +38,7 @@ header nav ul li a {
 header nav ul li a:hover {
   text-decoration: underline;
 }
-/* Main content and aside */
+
 main {
   display: flex;
   justify-content: space-between;
@@ -50,26 +50,8 @@ section {
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-aside {
-  flex: 25%;
-  background-color: #f9f9f9;
-  padding: 20px;
-  margin-left: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-aside h3 {
-  color: darkgreen;
-  font-size: 20px;
-}
-aside ul {
-  list-style-type: square;
-  margin: 0;
-  padding: 0;
-}
-aside ul li {
-  margin-bottom: 10px;
-}
-/* Table styling */
+
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -90,22 +72,6 @@ table th {
 table tr:nth-child(even) {
   background-color: #f2f2f2;
 }
-/* Footer styling */
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-  margin-top: 20px;
-}
-footer a {
-  color: lightblue;
-  text-decoration: none;
-}
-footer a:hover {
-  text-decoration: underline;
-}
-/* Image and figure styling */
 figure {
   margin: 20px 0;
   text-align: center;
